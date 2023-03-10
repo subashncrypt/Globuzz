@@ -1,5 +1,5 @@
 # Globuzz
-An advanced Content Management System for educational purposes relevant to Information Technology, Computer Science and other topics of Interest.
+A world-classs new-gen newsfeed application that classifies trending topics across the world in a compact and accessible format for users to identify and retrieve  relevant information.
 
 <H2> Proposed Features </H2>
 
