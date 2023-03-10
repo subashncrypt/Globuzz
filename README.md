@@ -1,4 +1,4 @@
-# Content_Management_System
+# Globuzz
 An advanced Content Management System for educational purposes relevant to Information Technology, Computer Science and other topics of Interest.
 
 <H2> Proposed Features </H2>
