@@ -11,3 +11,12 @@ A world-classs new-gen newsfeed application that classifies trending topics acro
 - [X] :
 - [X] :
 - [X] :
+
+
+<H2> Dependencies </H2>
+
+1. `npm init`
+2. `npm install express`
+3. `npm install --save-dev nodemon`
+4. `npm i body-parser`
+5. `npm i mongoose`
