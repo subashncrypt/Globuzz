@@ -70,6 +70,11 @@ const errorHandler = (error) => {
 /*a: The createServer() method is used to create an HTTP server. The createServer() method takes a requestListener function as an argument. The requestListener function is a function that is executed every time the server receives a request. The requestListener function takes two arguments: req and res. The req argument represents the request from the client, and the res argument represents the response that the server sends back to the client.*/
 const server = http.createServer(app);
 
+// get requests return the hello world message
+app.get('/', (req, res) => {
+  res.send("Hello World!");
+});
+
 //q: what is the purpose of this line of code?
 /*a: The on() method is used to bind an event to a function. In this case, the on() method is used to bind the error event to the errorHandler function. The error event is emitted when an error occurs. The errorHandler function is executed when the error event is emitted.*/
 server.on('error', errorHandler);
