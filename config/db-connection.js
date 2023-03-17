@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const _DBUrl = "mongodb+srv://subash:aZrv357wklLnFATk@cluster0.imqurxt.mongodb.net/?retryWrites=true&w=majority";
+const _DBUrl = "MONGO DB URL";
 
 mongoose
   .connect(_DBUrl, {
