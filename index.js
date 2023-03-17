@@ -7,6 +7,8 @@ var app = express();
 //q: what is the purpose of this line of code?
 /*a: The app variable is used to interact with the newly created Express application. Developers can use the app variable to define routes, middleware, and other functionalities of their application.*/
 
+require("./config/db-connection");
+
 //q: what is the purpose of this line of code?
 /*a: The normalizePort() function is used to normalize a port into a number, string, or false. In this case, the normalizePort() function is being used to normalize the port number that the Express application will listen on. The port number is set to 3000, but it can be reassigned to any other port number.*/
 
@@ -21,6 +23,10 @@ const normalizePort = (val) => {
   }
   return false;
 };
+
+const useRouter = require("./routes/router");
+
+app.use('/', useRouter);
 
 //q:what is process.env.PORT?
 /*a: process.env.PORT is an environment variable that is used to set the port number that the Express application will listen on.*/
